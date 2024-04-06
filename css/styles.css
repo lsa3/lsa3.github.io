@@ -1,11 +1,38 @@
 /* Estilos CSS aqui */
 
-/* Exemplo de estilo para o cabeçalho */
-h1 {
-    color: blue;
+/* Cor de fundo */
+body {
+    background-color: #4C91E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-/* Estilo para os botões */
+/* Estilo para o cabeçalho */
+h1 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Estilo para os checkboxes */
+input[type="checkbox"] {
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 5px; /* Adicionando bordas arredondadas */
+    padding: 5px; /* Espaçamento interno */
+    display: inline-block; /* Para que fiquem em linha */
+}
+
+/* Estilo para os labels dos checkboxes */
+label {
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Estilo para o botão */
 button {
     background-color: #4CAF50;
     border: none;
@@ -17,9 +44,4 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-input[type="checkbox"] {
-    background-color: #4C91E4;
-    margin-right: 5px;
 }
