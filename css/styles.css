@@ -1,0 +1,25 @@
+/* Estilos CSS aqui */
+
+/* Exemplo de estilo para o cabeçalho */
+h1 {
+    color: blue;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    background-color: #4C91E4;
+    margin-right: 5px;
+}
