@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Alterado para exibir os itens verticalmente */
     height: 100vh;
     margin: 0;
 }
@@ -15,6 +16,7 @@ h1 {
     color: white;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    margin-bottom: 20px; /* Adicionando espaço abaixo do h1 */
 }
 
 /* Estilo para os checkboxes */
@@ -23,7 +25,8 @@ input[type="checkbox"] {
     margin-right: 5px;
     border-radius: 5px; /* Adicionando bordas arredondadas */
     padding: 5px; /* Espaçamento interno */
-    display: inline-block; /* Para que fiquem em linha */
+    display: block; /* Alterado para exibir os itens verticalmente */
+    margin-bottom: 10px; /* Adicionando espaço entre os checkboxes */
 }
 
 /* Estilo para os labels dos checkboxes */
@@ -40,8 +43,7 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin-top: 20px; /* Adicionando espaço acima do botão */
     cursor: pointer;
 }
