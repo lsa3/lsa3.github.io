@@ -20,30 +20,21 @@ h1 {
 }
 
 /* Estilo para os checkboxes */
-input[type="checkbox"] {
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adicionando espaço entre os grupos de checkbox */
+}
+
+.checkbox-group input[type="checkbox"] {
     background-color: white;
     margin-right: 5px;
     border-radius: 5px; /* Adicionando bordas arredondadas */
     padding: 5px; /* Espaçamento interno */
-    display: block; /* Alterado para exibir os itens verticalmente */
-    margin-bottom: 10px; /* Adicionando espaço entre os checkboxes */
 }
 
 /* Estilo para os labels dos checkboxes */
-label {
+.checkbox-group label {
     color: white;
     font-family: Helvetica, sans-serif;
-}
-
-/* Estilo para o botão */
-button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 20px; /* Adicionando espaço acima do botão */
-    cursor: pointer;
 }
